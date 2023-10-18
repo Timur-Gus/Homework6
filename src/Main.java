@@ -5,5 +5,12 @@ public class Main {
         System.out.print("Числа от 1 до 10: ");
         for (int i = 1; i <= 10; i++)
             System.out.print(i + " ");
+
+        System.out.println("\n");
+        System.out.println("Задача 2");
+        System.out.println();
+        System.out.print("Числа от 10 до 1: ");
+        for (int i = 10; i >= 1; i--)
+            System.out.print(i + " ");
     }
 }
