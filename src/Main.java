@@ -25,5 +25,10 @@ public class Main {
         System.out.print("Числа от 10 до -10: ");
         for (int i = 10; i >= -10; i--)
             System.out.print(i + " ");
+        System.out.println("\n");
+        System.out.println("Задача 5");
+        System.out.println();
+        for (int i = 1904; i <= 2096; i += 4)
+            System.out.println(i + " год является високосным");
     }
 }
