@@ -40,5 +40,14 @@ public class Main {
         System.out.println();
         for (int i = 1; i <= 512; i *= 2)
             System.out.print(i + " ");
+        System.out.println("\n");
+        System.out.println("Задача 8");
+        System.out.println();
+        int salary = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total += salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
 }
