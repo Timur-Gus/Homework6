@@ -49,5 +49,14 @@ public class Main {
             total += salary;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
         }
+        System.out.println();
+        System.out.println("Задача 9");
+        System.out.println();
+        total = 0;
+        for (int i = 1; i <= 12; i++) {
+            total += total/100;
+            total += salary;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей");
+        }
     }
 }
